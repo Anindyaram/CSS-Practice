@@ -1,35 +1,27 @@
-body{
-    margin: 0;
-    background-image: linear-gradient(to right, rgba(0, 238, 255, 0.919) , rgb(224, 224, 99))
+* {
+    box-sizing: border-box;
 }
-.top{
+
+body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.color{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh; /* For 100% screen height */
-    width:  100vw;
-}
-.top h1{
-    writing-mode: vertical-lr;
-    font-size: 6em;
-    margin: 0;
-    width:fit-content ;
-    height: fit-content;
-    color: skyblue;
-    position: relative;
-    animation-name: example;
-    animation-duration: 1s;
-    animation-direction: normal;
-    animation-iteration-count: infinite; 
-}
-.inner{
-    width: 15%;
+    background-image:radial-gradient(circle, rgb(184, 235, 233),rgb(135, 235, 203),rgb(27, 208, 217)) ;
+    height: 100vh;
 }
 
-@keyframes example {
-    0% {color:violet; }
-    25% {color:indigo; }
-    50% {color:red; }
-    75% {color:green; }
-    100% {color:orange}
-  }
+.top{
+    font-size: 4em;
+    background:linear-gradient(to right ,rgb(72, 72, 235),rgba(255, 0, 0, 0.729));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h1{
+
+}
